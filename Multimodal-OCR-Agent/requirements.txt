@@ -1,0 +1,25 @@
+# Core ML
+torch>=2.4.0
+torchvision>=0.19.0
+transformers>=4.40.0
+
+# Google AI
+google-adk
+google-genai
+google-cloud-aiplatform>=1.130.0
+
+# OCR
+pytesseract
+opencv-python-headless
+
+# Data
+pandas
+matplotlib
+seaborn
+Pillow
+kaggle
+
+# Agent
+python-dotenv
+fastapi
+uvicorn
