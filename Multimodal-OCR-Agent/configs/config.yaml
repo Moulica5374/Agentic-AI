@@ -1,0 +1,43 @@
+# Multimodal OCR Agent Configuration
+
+project:
+  name: multimodal-ocr-agent
+  version: 0.1.0
+  region: us-central1
+
+gcp:
+  project_id: multimodal-ocr-agent
+  bucket: multimodal-ocr-agent-bucket
+  dataset_path: data/ocr_data/
+
+gemini:
+  model: gemini-2.0-flash
+  temperature: 0.1
+  max_tokens: 1000
+
+dataset:
+  categories:
+    - invoice
+    - document
+    - form
+    - real_life
+  splits:
+    - train
+    - val
+    - test
+  annotation_quality:
+    invoice: complete
+    document: empty
+    form: partial
+    real_life: missing
+
+insurance_types:
+  - home
+  - life
+  - auto
+  - health
+  - other
+
+labels:
+  primary: PRIMARY
+  secondary: SECONDARY
