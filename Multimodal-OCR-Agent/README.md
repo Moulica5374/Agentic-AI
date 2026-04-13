@@ -225,3 +225,7 @@ ERP / CRM / Data Warehouse          ← integration layer
 - McKinsey: Automating document workflows reduces costs by 40%
 - Gartner: Manual data entry costs $20/document with 4% error rate
 - Docsumo: 63% of Fortune 250 companies have implemented IDP solutions
+
+![GCP](https://img.shields.io/badge/GCP-Vertex%20AI-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-Vision-FF6F00?style=flat-square&logo=google&logoColor=white)
+![ADK](https://img.shields.io/badge/Google-ADK-34A853?style=flat-square&logo=google&logoColor=white)
