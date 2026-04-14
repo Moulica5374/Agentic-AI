@@ -41,3 +41,9 @@ insurance_types:
 labels:
   primary: PRIMARY
   secondary: SECONDARY
+
+agent:
+  ocr_engine: gemini-vision
+  fallback_ocr: tesseract
+  confidence_threshold: 0.85
+  batch_size: 10
